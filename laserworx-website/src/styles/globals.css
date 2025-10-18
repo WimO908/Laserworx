@@ -1,1 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+html, body { height: 100%; }
+body { @apply bg-white text-lw-ink antialiased; }
+.container-xl { @apply max-w-6xl mx-auto px-4; }
+.btn { @apply inline-flex items-center justify-center rounded-xl2 px-5 py-3 font-medium shadow-soft bg-lw-green text-white hover:bg-lw-greenDark transition; }
+.btn-outline { @apply inline-flex items-center justify-center rounded-xl2 px-5 py-3 font-medium border border-lw-green text-lw-green hover:bg-lw-green hover:text-white transition; }
+.section { @apply py-16 sm:py-20; }
+.h1 { @apply text-4xl sm:text-5xl font-bold tracking-tight; }
+.h2 { @apply text-3xl sm:text-4xl font-semibold tracking-tight; }
+.lead { @apply text-lg text-slate-600; }
